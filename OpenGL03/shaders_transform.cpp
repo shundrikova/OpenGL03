@@ -9,25 +9,15 @@
 
 #include <iostream>
 
-//! Переменные с индентификаторами ID
-//! ID шейдерной программы
 GLuint Program;
-//! ID атрибута
 GLint  Attrib_vertex;
-//! ID атрибута цветов 
 GLint Attrib_color;
-//! ID юниформ матрицы проекции 
 GLint Unif_matrix;
-//! ID Vertex Buffer Object 
 GLuint VBO_vertex; 
-//! ID Vertex Buffer Object 
 GLuint VBO_color; 
-//! ID VBO for element indices 
 GLuint VBO_element;
 
-//! Количество индексов 
 GLint Indices_count; 
-//! Матрица проекции 
 glm::mat4 Matrix_projection;
 
 bool rotation = false;
